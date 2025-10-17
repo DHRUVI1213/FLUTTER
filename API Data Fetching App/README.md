@@ -1,16 +1,39 @@
-# api_data
+# 🌤️ Flutter Live Weather App
 
-A new Flutter project.
+A beautiful **Flutter application** that fetches **real-time weather data** from the OpenWeatherMap API.  
+It demonstrates **API integration**, **async data fetching with FutureBuilder**, **error handling**, and a **modern glassmorphic UI**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+✅ Fetches **live weather data** from a REST API (OpenWeatherMap)  
+✅ Uses **FutureBuilder** for async data management  
+✅ Handles **loading**, **error**, and **success** states gracefully  
+✅ Supports **searching for any city**  
+✅ Beautiful **gradient + glassmorphism UI**  
+✅ Clean and minimal **Google Fonts** integration  
+✅ Responsive and works on both Android and iOS  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧩 Technologies Used
+
+- **Flutter** (v3.0+)
+- **Dart**
+- **HTTP package** for API calls
+- **Google Fonts** for modern typography
+- **OpenWeatherMap API**
+
+---
+
+## ⚙️ Step-by-Step Setup Guide
+
+Follow these steps to create, configure, and run the app 👇  
+
+---
+
+### 🪄 Step 1: Create a New Flutter Project
+```bash
+flutter create api_data
+cd api_data
