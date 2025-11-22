@@ -1,16 +1,74 @@
-# registration
+## Student TODO App
 
-A new Flutter project.
+A clean, modern, and dynamic Flutter TODO application designed for busy students to manage daily activities such as assignments, study hours, and personal goals.
 
-## Getting Started
+This repository demonstrates:
+Local state management with setState()
+Dynamic task rendering using ListView.builder
+Real-time UI updates (immediate visual changes when tasks are added/removed)
+Task categorization (Assignment / Study / Personal)
+Smooth add / delete interactions with swipe-to-delete and delete icon
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add Tasks — Quickly add assignments, study sessions, or personal goals.
+Category Selection — Choose from: Assignment, Study, Personal.
+Remove Tasks — Swipe left (or tap delete) to remove tasks instantly.
+Real-time UI — Uses setState() for immediate updates.
+Modern UI — Material 3 look, rounded cards, soft shadows, and color-coded categories.
+Lightweight — No external state-management packages; easy to understand and extend.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Tech Stack
+
+Flutter — App development
+Dart — Programming language
+Material 3 — UI styling
+setState() — Local state management
+ListView.builder — Efficient list rendering
+
+---
+
+## Project Structure
+student-todo-app/
+├── android/
+├── ios/
+├── lib/
+│   └── main.dart         # Main app UI, state & logic
+├── test/
+├── pubspec.yaml
+└── README.md
+
+
+The lib/main.dart file contains the entire app logic in a single file for simplicity. You can split into smaller widgets/files as you extend the app.
+
+---
+
+## Installation
+
+# Clone the repository:
+
+git clone https://github.com/your-username/student-todo-app.git
+
+---
+
+# Enter the project directory:
+
+cd student-todo-app
+
+---
+
+# Install dependencies:
+
+flutter pub get
+
+---
+
+# Run the app :
+
+flutter run
+
+---
