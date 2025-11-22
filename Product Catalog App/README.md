@@ -1,16 +1,56 @@
-# product_catalog
+## Product Catalog App
 
-A new Flutter project.
+A clean, modern, and responsive Flutter application that displays a grid-based product catalog using GridView and custom-designed product cards. Each card includes an image, product name, and price — perfect for small businesses wanting to showcase products beautifully in a mobile app.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+Beautiful Product Grid — Products displayed in a responsive 2-column GridView
+Custom Product Cards — Includes product image, name, and price
+Responsive Layout — Works smoothly on all screen sizes
+Easy to Extend — Add categories, navigation, product details, etc.
+Clean UI — Modern colors, padding, and rounded containers
+Lightweight — No backend or heavy packages required
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+Flutter — Cross-platform development
+Dart — Application logic
+GridView.builder — Efficient product listing
+Custom Widgets — Product card component
+
+---
+
+## Project Structure
+
+product-catalog-app/
+├── android/
+├── ios/
+├── lib/
+│   ├── main.dart            # App entry point
+│   └── product_card.dart    # Custom UI card widget
+├── assets/
+│   └── images/              # Product images
+├── pubspec.yaml
+└── README.md
+
+---
+
+## Installation
+# 1. Clone the repository
+git clone https://github.com/your-username/product-catalog-app.git
+
+# 2. Navigate to the project
+cd product-catalog-app
+
+# 3. Install dependencies
+flutter pub get
+
+# 4. Run the app
+
+flutter run
+
+---
