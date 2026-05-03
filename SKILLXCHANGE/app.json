@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SkillXchange",
+    "slug": "skillxchange",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/app_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.skillxchange.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ced315ef-1035-44f3-a0eb-cf628c94c475"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ced315ef-1035-44f3-a0eb-cf628c94c475"
+    }
+  }
+}
